@@ -1,18 +1,15 @@
 === DISASTER RESPONSE REPORT ===
 Total disasters handled: 7
-Unreachable locations: 3
+Unreachable locations: 0
 Blocked roads: 1
 
-Average response time: 13.57
+Average response time: 12.57
 
 Detailed Assignments:
-[1] Node 7 | Type: FIRE_ACCIDENT | Team: T2 (FIRE_TRUCK) | Time: 9 | Path: 4 6 7 [REROUTED]
-[2] Node 7 | Type: FIRE_ACCIDENT | Team: T1 (AMBULANCE) | Time: 19 | Path: 1 2 5 4 6 7 [REROUTED]
-[3] Node 6 | Type: INDUSTRIAL_ACCIDENT | Team: NONE (NDRF_TEAM) -> UNREACHABLE
-[4] Node 6 | Type: INDUSTRIAL_ACCIDENT | Team: T2 (FIRE_TRUCK) | Time: 5 | Path: 4 6 
-[5] Node 6 | Type: INDUSTRIAL_ACCIDENT | Team: T1 (AMBULANCE) | Time: 15 | Path: 1 2 5 4 6 
-[6] Node 2 | Type: TRANSPORT_ACCIDENT | Team: T3 (POLICE) | Time: 15 | Path: 3 1 2 
-[7] Node 2 | Type: TRANSPORT_ACCIDENT | Team: T1 (AMBULANCE) | Time: 5 | Path: 1 2 
-[8] Node 8 | Type: BUILDING_COLLAPSE | Team: NONE (NDRF_TEAM) -> UNREACHABLE
-[9] Node 8 | Type: BUILDING_COLLAPSE | Team: T1 (AMBULANCE) | Time: 27 | Path: 1 2 5 4 6 7 8 [REROUTED]
-[10] Node 8 | Type: BUILDING_COLLAPSE | Team: NONE (FOOD_TRUCK) -> UNREACHABLE
+[1] Node 6 | Type: FIRE_ACCIDENT | Team: T2 (FIRE_TRUCK) | Time: 17 | Path: 3 5 7 6 [REROUTED]
+[2] Node 6 | Type: FIRE_ACCIDENT | Team: T1 (AMBULANCE) | Time: 23 | Path: 1 3 5 7 6 [REROUTED]
+[3] Node 7 | Type: BUILDING_COLLAPSE | Team: T4 (NDRF_TEAM) | Time: 13 | Path: 4 3 5 7 [REROUTED]
+[4] Node 7 | Type: BUILDING_COLLAPSE | Team: T1 (AMBULANCE) | Time: 17 | Path: 1 3 5 7 
+[5] Node 7 | Type: BUILDING_COLLAPSE | Team: T5 (FOOD_TRUCK) | Time: 0 | Path: 7 
+[6] Node 2 | Type: TRANSPORT_ACCIDENT | Team: T3 (POLICE) | Time: 14 | Path: 5 3 4 2 
+[7] Node 2 | Type: TRANSPORT_ACCIDENT | Team: T1 (AMBULANCE) | Time: 4 | Path: 1 2
